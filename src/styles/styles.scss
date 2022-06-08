@@ -1,0 +1,25 @@
+@import'footer';
+@import'header';
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0%;
+}
+
+:root {
+	--white: #FFFFFF;
+  --red: #FF4D5A;
+	--black: #000000;
+}
+
+html {
+	font-size: 62.5%;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-image: linear-gradient(43deg, #020c17 0%, #0b2241 43%, #1f3755 100%);
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+}

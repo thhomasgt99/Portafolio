@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: fixed;
+  justify-content:center;
+  align-items: flex-end;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+footer .footer-lines {
+  display:flex;
+}
+footer .footer-line {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  transform:rotate(90deg);
+}
+footer .footer-scroll {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 6rem;
+  left:70%;
+  transform:rotate(90deg);
+}
+footer .footer-scroll_text {
+  padding:4px;
+}
+footer .footer-scroll_line {
+  width: 90px;
+  height: 3px;
+  // margin-right: 2px;
+  background-color: white;
+}
