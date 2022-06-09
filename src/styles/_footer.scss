@@ -1,18 +1,19 @@
 footer {
-  width: 100%;
-  height: 40px;
+  // width: 100%;
+  height: 4rem;
   display: flex;
   position: fixed;
   justify-content:center;
   align-items: flex-end;
   bottom: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
+  font-size: 1rem;
 }
 footer .footer-lines {
   display:flex;
 }
 footer .footer-line {
-  width: 25px;
+  width: 2rem;
   height: 3px;
   background-color: #ffffff;
   transform:rotate(90deg);
@@ -21,16 +22,17 @@ footer .footer-scroll {
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 6rem;
+  bottom: 6em;
   left:70%;
   transform:rotate(90deg);
+  font-size: 10px;
 }
 footer .footer-scroll_text {
   padding:4px;
 }
 footer .footer-scroll_line {
-  width: 90px;
-  height: 3px;
-  // margin-right: 2px;
+  width: 9rem;
+  max-width: 200px;
+  height: 2px;
   background-color: white;
 }
