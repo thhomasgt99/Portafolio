@@ -1,0 +1,16 @@
+@import'mixins';
+main {
+  @include baseStyles;
+
+  .section-home {
+    padding-top: 30em;
+    height: 100vh;
+    font-size: 1rem;
+
+    .title {
+      margin-top: 1em;
+      font-size: 2em;
+    }
+  }
+  @include stylesImages;
+}

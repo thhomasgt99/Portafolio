@@ -1,0 +1,68 @@
+// $red: #e40813;
+@mixin baseStyles {
+	section {
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    .container-section {
+      margin-right: 30%;
+      width: 12em;
+      position: absolute;
+      bottom: 12%;
+      left: 15%;
+      font-size: 1rem;
+    }
+    .line-red {
+      width: 5em;
+      max-width: 120px;
+      height: 3px;
+      margin-top: 0.5em;
+      border-radius: 3px;
+      background-color: #FF4D5A;
+      font-size: 1rem;
+    }
+    .line-red:nth-child(2) {
+      margin-left: 2.5em;
+      font-size: 1rem;
+    }
+    .description {
+      margin-top: 1em;
+      font-size: 1rem;
+      letter-spacing: .2em;
+      line-height: 1.4em;
+    }
+    button {
+      width: 10em;
+      max-width: 135px;
+      max-height: 40px;
+      height: 3em;
+      border: 0;
+      border-radius: 2rem;
+      color:white;
+      font-size: 0.5rem;
+      font-weight: 400;
+      background-color: #FF4D5A;
+      margin-top: 2em;
+      cursor: pointer;
+    }
+    h3 {
+      display: none;
+    }
+  }
+}
+
+@mixin stylesImages{
+  .section-general .section-image {
+    width:80%;
+    height:80vh;
+    object-fit: cover;
+  }
+}
+// .header_container_button1 {
+// 	@include button;
+// }

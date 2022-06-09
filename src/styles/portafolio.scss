@@ -1,0 +1,7 @@
+@import'mixins';
+// esto no es pasarle estilos al body en realidad es especificidad
+body {
+	@include baseStyles;
+	@include stylesImages;
+}
+
