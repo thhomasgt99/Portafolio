@@ -4,7 +4,7 @@ import Sections from '../components/sections'
 const img = 'https://kuon.space/assets/img/reile.jpg'
 const title = 'Hair Space REILE'
 const p = 'website'
-const url = 'portaforce'
+const url = 'portafolio'
 
 const section1 = () => {
 	return (

@@ -11,8 +11,8 @@ const App = () => {
 		<React.Fragment>
 			<BrowserRouter>
 				<Routes>
-					<Route path='/portafolio' element={<Home />} />
-					<Route path='/portaforce' element={<Portafolio />} />
+					<Route path='/' element={<Home />} />
+					<Route path='/portafolio' element={<Portafolio />} />
 					<Route path='*' element={<NotFoud />} />
 				</Routes>
 			</BrowserRouter>
