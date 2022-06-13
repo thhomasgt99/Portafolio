@@ -3,8 +3,7 @@
 ## Scrips 
 - npm run start  -> Arranca el proyecto en desarrollo
 - npm run build  -> Crea el compilado de produccion
-##### Nota: si no funciona el build agragar las rutas al html manualmente. Puede ser por los puntos de las rutas
-## Dependencias de desarrollo 
+
 - react            	 			-> Instala react
 - react-dom        	 			-> Instala react dom
 - react-dom/client        -> Ahora este remplaza a react-dom
@@ -24,3 +23,4 @@
 - sass-loader        		 	-> Loader de sass para que trate webpack estos formatos
 - axios                   -> Para manejar mejor las llamadas apis
 - copy-webpack-plugin     -> Nos ayudará a copiar los archivos de la carpeta /public a la carpeta de nuestro proyecto compilado
+##### Nota: ejecurar cadavez que balla a mandar commits a firebase antes npm run build pq no lo integre a los yml
