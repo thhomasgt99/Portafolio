@@ -1,8 +1,8 @@
 //por una extraña razon en jsx no se puede traer images de local con solo la ruta hay que importar  por eso estas importaciones
-// import batata from './images/batata.jpg' 
-// import gafas from './images/gafas.jpg'
-const batata = 'https://thhomasgt99.github.io/assets/img/batata.png'
-const gafas  = 'https://thhomasgt99.github.io/assets/img/batata.png'
+import batata from './images/batata.jpg' 
+import gafas from './images/gafas.jpg'
+// const batata = 'https://thhomasgt99.github.io/assets/img/batata.png'
+// const gafas  = 'https://thhomasgt99.github.io/assets/img/batata.png'
 
 const api =[
 	{

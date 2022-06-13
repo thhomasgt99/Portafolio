@@ -8,7 +8,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/' //porque ruta arranca
+    //publicPath: './' //porque ruta arranca| esta line deve estar comentada mientras estemos en desarrollo, en produccion si deve estar activa
+    //si esta liena esta activa cuando corramos el proyecto entonces tomara los archivos de las carpetas dist o build, esto es el funcionaiento necesario para produccion pero no para desarrollo por lo tanto deve estar comentada en ese modo
+    //en ambos modos utilizara node_modules para utilizar las dependencias de produccion
   },
   resolve: {
     extensions: ['.js', '.jsx'], //extenciones a tratar
@@ -65,13 +67,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: './assets/[name].css', //esto pone la regla, al compilar creara un carpeta llamada assets y dentro el css con el nombre por defecto alparecer
     }),
-    // new CopyPlugin({
-    //   patterns: [
+    new CopyPlugin({
+      patterns: [
+      {from: 'src/images', to: 'assets/images'}
     //     { from: 'public/manifest.json', to: '' },
     //     { from: 'public/service-worker.js', to: '' },
     //     { from: 'public/icon.png', to: 'assets' },
-    //   ],
-    // }),
+      ],
+    }),
   ],
   devServer: {
     static: path.join(__dirname, 'dist'),
