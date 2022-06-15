@@ -1,12 +1,11 @@
 import React from 'react'
 import Sections from '../components/sections'
 
-const img = 'https://kuon.space/assets/img/reile.jpg'
-const title = 'Hair Space REILE'
-const p = 'website'
-const url = 'portafolio'
-
 const section1 = () => {
+	const img = 'https://kuon.space/assets/img/reile.jpg'
+	const title = 'Hair Space REILE'
+	const p = 'website'
+	const url = 'portafolio'
 	return (
 		<Sections
 			img={img}

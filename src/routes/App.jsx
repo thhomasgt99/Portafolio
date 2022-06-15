@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AppContext from '../context/AppContext'
+import useInitialState from '../hooks/useInitialState'
 import Home from '../pages/home'
 import Portafolio from '../pages/portafolio'
 import NotFoud from '../pages/NotFoud'
@@ -7,16 +9,19 @@ import NotFoud from '../pages/NotFoud'
 import '../styles/styles.scss'
 
 const App = () => {
+	const initialState = useInitialState()
 	return (
-		<React.Fragment>
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/portafolio' element={<Portafolio />} />
-					<Route path='*' element={<NotFoud />} />
-				</Routes>
-			</BrowserRouter>
-		</React.Fragment>
+		<AppContext.Provider value={initialState}>
+			<React.Fragment>
+				<BrowserRouter>
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='/portafolio' element={<Portafolio />} />
+						<Route path='*' element={<NotFoud />} />
+					</Routes>
+				</BrowserRouter>
+			</React.Fragment>
+		</AppContext.Provider>
 	)
 }
 

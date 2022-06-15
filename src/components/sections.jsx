@@ -1,7 +1,5 @@
 import React from 'react'
 
-React.Children
-
 const Sections = (props) => {
 
 	return (
