@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AppContext from '../context/AppContext'
 import Section1 from './section1'
 import Section2 from './section2'
 import Section3 from './section3'
 
 const Start = () => {
+  const { slide } = useContext(AppContext)
+
+  React.useEffect(() => {
+      slide('.section-home')
+  }, [])
+
   return (
     <React.Fragment>
       <main className="container">
-        <section className="section-home">
+        <section className="section-home section-general">
           <div className='container-section'>
             <h1 className="title" id="title">THOMAS BERNAL MORALES</h1>
             <div className="line-container">
@@ -21,9 +28,9 @@ const Start = () => {
           </div>
         </section>
 
-        <Section1 />
-        <Section2 />
-        <Section3 />
+        <Section1/>
+        <Section2/>
+        <Section3/>
 
       </main>
     </React.Fragment>

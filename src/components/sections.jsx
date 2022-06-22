@@ -4,7 +4,7 @@ const Sections = (props) => {
 
 	return (
 		<React.Fragment>
-			<section id='section1' className="section1  section-general">
+			<section id={`'section${props.id}`} className={`section${props.id}  section-general`}>
 				<img className="section-image" src={props.img} alt="" />
 				<div className='container-section'>
 					<h1 className="title">{props.title}</h1>

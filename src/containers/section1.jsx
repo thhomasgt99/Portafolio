@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AppContext from '../context/AppContext'
 import Sections from '../components/sections'
 
 const section1 = () => {
+	const { slide } = useContext(AppContext)
+
+	React.useEffect(() => {
+		slide('.section1')
+	}, [])
+
 	const img = 'https://kuon.space/assets/img/reile.jpg'
-	const title = 'Hair Space REILE'
+	const title = 'Portafolio'
 	const p = 'website'
 	const url = 'portafolio'
 	return (
@@ -12,6 +19,7 @@ const section1 = () => {
 			url={url}
 			title={title}
 			p={p}
+			id={1}
 		/>
 	)
 }
