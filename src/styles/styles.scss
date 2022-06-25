@@ -48,6 +48,10 @@ body {
 	// background-color: #FF4D5A;
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
+	
+}
+body::-webkit-scrollbar {
+		display: none;
 }
 
 #root {

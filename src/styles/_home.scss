@@ -2,7 +2,7 @@
 
 main {
   @include baseStyles;
-  .section-general {
+  .container-section {
     visibility: hidden;//esto sirve para ocultar el elemento pero sin eliminarlo o sacarlo del dom
   }
   .slide {
@@ -23,11 +23,48 @@ main {
     padding-top: 30em;
     height: 100vh;
     font-size: 1rem;
+    .container-section {
+      bottom: 25%;
+    }
     .title {
       margin-top: 1em;
       font-size: 2em;
     }
   }
+  .top {
+    animation-name: top;
+    animation-duration: 0.7s;
+    transform: translatey(-100vh);
+  }
+  @keyframes top {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform:scale(0.5);
+    }
+    60% {
+      transform: translatey(-10vh);
+    }
+    100%{
+      transform: translatey(-100vh);
+    }
+  }
+  .top2{
+    transition-duration: .5s;
+    transform: translatey(-100vh);
+    // margin-bottom: 10rem;
+  }
+  .top3 {
+    transition-duration: .5s;
+    transform: translatey(-200vh);
+    // margin-bottom: 10rem;
+  }
+  .top4 {
+    transition-duration: .5s;
+    transform: translatey(-300vh);
+  }
+  
 
   @include stylesImages;
 }

@@ -17,7 +17,7 @@ section button {
 
 .portafolio-grid {
 	min-height: 100vh;
-	background-color: rgba($color: #f6f6f6 , $alpha: 1);
+	background-color: rgba($color: #f6f6f6, $alpha: 1);
 
 	.portafolio-container {
 		width: 99vw;
@@ -33,9 +33,9 @@ section button {
 			// background-color: #e4e4e4;
 			// background-color: #0b2241;
 			border-radius: 50px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+			background: linear-gradient(145deg, #f0f0f0, #cacaca);
+			box-shadow: 20px 20px 60px #bebebe,
+				-20px -20px 60px #ffffff;
 			font-size: 1rem;
 			text-align: center;
 			border-radius: 2%;

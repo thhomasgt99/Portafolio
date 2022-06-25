@@ -1,16 +1,29 @@
 import React, { useContext } from 'react'
-import AppContext from '../context/AppContext'
 import Sections from '../components/sections'
 
 
 
 const section2 = () => {
-	const { slide } = useContext(AppContext)
 
+	var flag = 0
 	React.useEffect(() => {
-		slide('.section3')
+		const node = document.querySelector('.container-section3')
+		const line = document.querySelector('.line4')
+		const observer = new IntersectionObserver((objeto) => {
+			objeto.forEach(entry => {
+				if (entry.isIntersecting) {
+					const body = document.querySelector('body')
+					body.style.overflow = 'hidden'
+					node.classList.add('slide')
+					line.style.background = '#FF4D5A'
+				} else {
+					line.style.background = '#ffffff'
+				}
+			})
+		}, { threshold: 0.75 }
+		)
+		observer.observe(node)
 	}, [])
-
 
 	const img = 'https://kuon.space/assets/img/reile.jpg'
 	const title = 'Get In Touch'
