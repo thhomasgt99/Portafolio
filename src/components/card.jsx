@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 function Card({ id, img, title, description, url }) {
 
 	return (
-		<a cursor='pointer' href={url}>
+		<a cursor='pointer' href={url} target="_blank">
 			<div className="card" id={`card-${id}`}>
 				<img id={`imgId-${id}`} src={img} alt="" />
 				<div className="card-container">
