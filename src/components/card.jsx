@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 
-function Card({ id, img, title, description, url }) {
+function Card({ id, img, title, description, url, github }) {
 
 	return (
 		<a cursor='pointer' href={url} target="_blank">
@@ -12,7 +12,7 @@ function Card({ id, img, title, description, url }) {
 					<h2 className="card-title">{title}</h2>
 					<p className="card-text">{description}</p>
 				</div>
-				<a href="/"><i className={`fa-brands fa-github iconsgit icongit-${id}`}></i></a>
+				<a href={github} target="_blank"><i className={`fa-brands fa-github iconsgit icongit-${id}`}></i></a>
 				
 			</div>
 		</a>

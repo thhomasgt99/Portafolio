@@ -24,7 +24,13 @@ function Portafolio() {
 					<div className='portafolio-container'>
 						{
 							api.map(item => (
-								<Card id={item.id} url={item.url} img={item.img} title={item.title} description={item.description} key={item.title} />
+								<Card id={item.id}
+									github={item.github}
+									url={item.url}
+									img={item.img}
+									title={item.title}
+									description={item.description}
+									key={item.title} />
 							))
 						}
 					</div>
