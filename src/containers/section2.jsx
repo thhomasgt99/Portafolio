@@ -2,41 +2,18 @@ import React, { useContext } from 'react'
 import Sections from '../components/sections'
 
 const section2 = () => {
-	var flag = 0
 	React.useEffect(() => {
-		const node = document.querySelector('.container-section2')
-		const line = document.querySelector('.line3')
-		const observer = new IntersectionObserver((objeto) => {
-			objeto.forEach(entry => {
-				if (entry.isIntersecting) {
-					window.addEventListener('scroll', () => {
-						const scrollable = window.scrollY
-						if (scrollable >= 800 || flag === 0) { //por alguna extraña brujeria no puedo eliminar esta vandera pq el scroll deja de funcionar jaja
-							const sectionDesplazandeTop = document.querySelector('.section2')
-							const sectionDesplazandeBottom = document.querySelector('.section3')
-							if (sectionDesplazandeTop.classList.contains('top4')) {
-							} else {
-								sectionDesplazandeTop.classList.remove('top3')
-								sectionDesplazandeTop.classList.add('top4')
-								sectionDesplazandeBottom.classList.add('top4')
-							}
-						}
-					})
-					node.classList.add('slide')
-					line.style.background = '#FF4D5A'
-				} else {
-					line.style.background = '#ffffff'
-				}
-			})
-		}, { threshold: 0.75 }
-		)
-		observer.observe(node)
+			const node = document.querySelector('.container-section2')
+			const line = document.querySelector('.line3')
+			line.style.background = '#FF4D5A'
+			node.classList.add('slide')
 	}, [])
 
-	const img = 'https://kuon.space/assets/img/reile.jpg'
-	const title = 'About Me'
-	const p = 'I love Design, Technology, and Story.'
+	const img = 'https://i.imgur.com/RqK7P41.png'
+	const title = 'Sobre mi'
+	const p = 'Me encanta la tecnología y el diseño.'
 	const url = 'portafolio2'
+	const numero = '02'
 	return (
 		<Sections
 			img={img}
@@ -44,6 +21,7 @@ const section2 = () => {
 			title={title}
 			p={p}
 			id={2}
+			numero={numero}
 		/>
 	)
 }

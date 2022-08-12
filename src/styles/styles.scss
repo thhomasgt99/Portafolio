@@ -63,7 +63,13 @@ body::-webkit-scrollbar {
 
 a {
 	cursor: pointer;
-	// color: #ffffff;
-	color: yellow;
+	color: #ffffff;
 	text-decoration: none;
+}
+.fa-linkedin,.fa-github {
+	margin: 15px;
+}
+
+#section3 button {
+	display: none;
 }

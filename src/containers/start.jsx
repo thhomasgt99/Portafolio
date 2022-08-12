@@ -5,39 +5,14 @@ import Section2 from './section2'
 import Section3 from './section3'
 
 const Start = () => {
-  React.useEffect(() => {
+  
+  React.useEffect(()=>{
     const node = document.querySelector('.container-section0')
     const line = document.querySelector('.line1')
-    const observer = new IntersectionObserver((objeto) => {
-      objeto.forEach(entry => {
-        if (entry.isIntersecting) {
-            node.classList.add('slide')
-            line.style.background = '#FF4D5A'
-        } else {
-          line.style.background = '#ffffff'
-        }
-      })
-    }, { threshold: 0.75 }
-    )
-    observer.observe(node)
 
-    window.addEventListener('scroll', () => {
-      const scrollable = window.scrollY
-      if (scrollable >= 200 ) {
-        window.scrollTo({
-          top: 0,
-          behavior: "instant"
-        })
-        const sectionDesplazandeTop = document.querySelector('.container-section0')
-        const sectionDesplazandeBottom = document.querySelector('.section1')
-        if (sectionDesplazandeTop.classList.contains('top')) {
-        } else {
-          sectionDesplazandeTop.classList.add('top')
-          sectionDesplazandeBottom.classList.add('top2')
-        }
-      }
-    })
-  }, [])
+    node.classList.add('slide')
+    line.style.background = '#FF4D5A'
+  },[])
 
   return (
     <React.Fragment>
@@ -50,8 +25,8 @@ const Start = () => {
               <div className="line-red"></div>
             </div>
             <p className="description">
-              web designer /
-              markup engineer.
+              Desarrollador web /
+              Fron-End.
             </p>
           </div>
         </section>

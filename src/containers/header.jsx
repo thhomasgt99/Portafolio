@@ -6,9 +6,8 @@ const Header = ()=>{
       <div className="subtitle">THOMAS BERNAL</div>
       <nav>
         <ul>
-          <li><img src="https://cdn-icons-png.flaticon.com/512/427/427544.png" alt="" /></li>
-          <li><img src="https://cdn-icons-png.flaticon.com/512/427/427544.png" alt="" /></li>
-          <li>Wantedly</li>
+          <li><i class="fa-solid fa-screwdriver-wrench"></i></li>
+          <li>En construcción</li>
         </ul>
       </nav>
       <div className="menu">
