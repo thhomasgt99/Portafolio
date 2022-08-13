@@ -10,7 +10,7 @@ const section1 = () => {
 		
 	}, [])
 
-	const img = 'https://i.imgur.com/grs2xPZ.png'
+	const img = 'https://i.imgur.com/PS4ZLRO.png'
 	const title = 'Portafolio'
 	const p = 'website'
 	const url = 'portafolio'

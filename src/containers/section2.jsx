@@ -4,15 +4,15 @@ import Sections from '../components/sections'
 const section2 = () => {
 	React.useEffect(() => {
 			const node = document.querySelector('.container-section2')
-			const line = document.querySelector('.line3')
-			line.style.background = '#FF4D5A'
+			// const line = document.querySelector('.line3')
+			// line.style.background = '#FF4D5A'
 			node.classList.add('slide')
 	}, [])
 
-	const img = 'https://i.imgur.com/RqK7P41.png'
+	const img = 'https://i.imgur.com/FtzfFYd.png'
 	const title = 'Sobre mi'
 	const p = 'Me encanta la tecnología y el diseño.'
-	const url = 'portafolio2'
+	const url = 'about'
 	const numero = '02'
 	return (
 		<Sections

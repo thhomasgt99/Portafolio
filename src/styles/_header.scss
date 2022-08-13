@@ -9,29 +9,32 @@ header {
   position:fixed;
   font-size: 1.3rem;
   z-index: 2;
-}
-header nav ul {
-	display: flex;
-  list-style: none;
-  align-items: center;
-}
-header nav ul li {
-	margin-left: 1em;
-  font-size: 1rem;
-}
-header nav ul li img{
-	width: 1em;
-	height: 1em;
-  font-size: 1rem;
-}
-header .menu-line{
-  max-width: 50px;
-  width: 2.5em;
-  height: 3px;
-  background-color: rgb(255, 255, 255);
-  font-size: 1rem;
-}
-header .menu-line:nth-child(2){
-  margin-top: 0.5em;
-  font-size: 1rem;
+  nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    li {
+      margin-left: 1em;
+      font-size: 1rem;
+      img{
+        width: 1em;
+        height: 1em;
+        font-size: 1rem;
+      }
+    }
+  }
+  .menu {
+    cursor: pointer;
+    .menu-line{
+      max-width: 50px;
+      width: 2.5em;
+      height: 3px;
+      background-color: rgb(255, 255, 255);
+      font-size: 1rem;
+    }
+    .menu-line:nth-child(2){
+      margin-top: 0.5em;
+      font-size: 1rem;
+    }
+  }
 }

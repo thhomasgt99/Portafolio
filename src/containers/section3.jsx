@@ -3,7 +3,7 @@ import Sections from '../components/sections'
 
 
 
-const section2 = () => {
+const section3 = () => {
 	React.useEffect(() => {
 		const node = document.querySelector('.container-section3')
 		const line = document.querySelector('.line4')
@@ -11,7 +11,7 @@ const section2 = () => {
 		node.classList.add('slide')
 	}, [])
 
-	const img = 'https://kuon.space/assets/img/reile.jpg'
+	const img = 'https://i.imgur.com/OOsRTgK.png'
 	const title = 'Ponerse en contacto'
 	const p = 'thhomasgt99@gmail.com'
 	const url = 'portafolio3'
@@ -38,4 +38,4 @@ const section2 = () => {
 	)
 }
 
-export default section2
+export default section3

@@ -5,6 +5,8 @@ import useInitialState from '../hooks/useInitialState'
 import Home from '../pages/home'
 import Portafolio from '../pages/portafolio'
 import NotFoud from '../pages/NotFoud'
+import Menu from '../containers/menu'
+import About from '../pages/about'
 
 import '../styles/styles.scss'
 
@@ -14,9 +16,11 @@ const App = () => {
 		<AppContext.Provider value={initialState}>
 			<React.Fragment>
 				<BrowserRouter>
+					<Menu />
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/portafolio' element={<Portafolio />} />
+						<Route path='/about' element={<About/>} />
 						<Route path='*' element={<NotFoud />} />
 					</Routes>
 				</BrowserRouter>

@@ -1,6 +1,7 @@
 @import'footer';
 @import'header';
 @import'home';
+@import'menu';
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -69,6 +70,13 @@ a {
 .fa-linkedin,.fa-github {
 	margin: 15px;
 }
+
+.fa-angles-left {
+	position: absolute;
+	left: 15%;
+	top: 90vh;
+	z-index: 3;
+}s
 
 #section3 button {
 	display: none;
