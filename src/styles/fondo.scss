@@ -1,0 +1,55 @@
+html {
+  overflow-x: hidden;
+}
+.totalcontainer {
+	// position: fixed;
+	// display: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+// .container1 {
+//   transform: scaleX(1.11);
+// }
+// .container2 {
+//   transform: scaleX(1.25);
+// }
+.layer-1 {
+  height: 100vh;
+  width: 100%;
+  // background-color: #1b263e;
+}
+
+.layer-2 {
+  background: url("../images/lay2.svg");
+}
+.layer-3 {
+	background: url("../images/lay3.svg");
+}
+.layer-4 {
+	background: url("../images/lay4.svg");
+}
+.layer-5 {
+	background: url("../images/lay5.svg");
+	z-index: 2;
+}
+.layer-6 {
+  background: url("../images/lay6.svg");
+}
+.layer-7 {
+  background: url("../images/lay7.svg");
+}
+.layer-8 {
+  background: url("../images/lay8.svg");
+}
+.laya-please {
+  position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0px;
+}

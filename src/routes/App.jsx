@@ -7,6 +7,7 @@ import Portafolio from '../pages/portafolio'
 import NotFoud from '../pages/NotFoud'
 import Menu from '../containers/menu'
 import About from '../pages/about'
+import Fondo from '../pages/fondo'
 
 import '../styles/styles.scss'
 
@@ -16,6 +17,7 @@ const App = () => {
 		<AppContext.Provider value={initialState}>
 			<React.Fragment>
 				<BrowserRouter>
+					<Fondo />
 					<Menu />
 					<Routes>
 						<Route path='/' element={<Home />} />
