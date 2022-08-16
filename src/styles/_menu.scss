@@ -1,7 +1,7 @@
 #menu {
 	position: fixed;
 	right: 0%;
-	background-color: grey;
+	background-color: rgba($color: #000000, $alpha: 0.4);
 	list-style: none;
 	width: 100%;
 	height: 100vh;
@@ -10,11 +10,21 @@
 	justify-content: center;
 	align-items: center;
 	display: none;
+	i:hover{
+		cursor: pointer;
+		color: #FF4D5A;
+		transition: 0.5s;
+	}
 	li {
 		list-style: none;
 		margin-top: 3rem;
 		font-size: 2.5rem;
 		border-bottom: solid 5px white;
+		cursor: pointer;
+	}
+	li:hover {
+		color: #FF4D5A;
+		transition: 0.5s;
 	}
 	// visibility: hidden;
 }
