@@ -21,7 +21,13 @@ const About = () => {
 							<hr />
 						</div>
 						<div className='descripcion'>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, sed. Eos minima tenetur, explicabo sed similique quas doloribus magni vel modi et, ut eum, voluptate a debitis quam! Asperiores, minus!
+							¡Hola! Mi nombre es Thomas y disfruto creando cosas que viven en Internet.
+							Soy un desarrollador de Colombia interesado principalmente en tecnologías
+							web, especialmente en desarrollo frontend.
+							Mi curiosidad me permite aprender rápidamente nuevas herramientas y tecnologías cuando es necesario.
+							Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias
+							de usuario intuitivas y dinámicas.
+							Aficionado a la ilustración y el modelado 3D.
 						</div>
 					</div>
 					<h4>

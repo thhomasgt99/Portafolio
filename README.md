@@ -6,7 +6,6 @@
 
 - react            	 			-> Instala react
 - react-dom        	 			-> Instala react dom
-- react-dom/client        -> Ahora este remplaza a react-dom
 - react-router-dom        -> Dependencia para manejo de rutas en la aplicacion
 - webpack									-> wepack
 - webpack-cli        			-> 
