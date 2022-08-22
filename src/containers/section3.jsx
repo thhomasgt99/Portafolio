@@ -6,9 +6,23 @@ import Sections from '../components/sections'
 const section3 = () => {
 	React.useEffect(() => {
 		const node = document.querySelector('.container-section3')
-		const line = document.querySelector('.line4')
-		line.style.background = '#FF4D5A'
 		node.classList.add('slide')
+
+		const imagen = document.querySelector('.section3')
+		const line = document.querySelector('.line4')
+		const scrollDown = document.querySelector('.footer-scroll')
+		const observer = new IntersectionObserver((event) => {
+			const { isIntersecting } = event[0]
+			if (isIntersecting) {
+				line.style.background = '#FF4D5A'
+				scrollDown.style.display = 'none'
+			} else {
+				line.style.background = '#ffffff'
+				scrollDown.style.display = 'flex'
+			}
+
+		}, { threshold: '0.7' })
+		observer.observe(imagen)
 	}, [])
 
 	const img = 'https://i.imgur.com/OOsRTgK.png'

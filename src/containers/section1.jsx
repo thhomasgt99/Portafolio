@@ -4,9 +4,20 @@ import Sections from '../components/sections'
 const section1 = () => {
 	React.useEffect(() => {
 		const node = document.querySelector('.container-section1')
-		// const line = document.querySelector('.line2')
-		// line.style.background = '#FF4D5A'
 		node.classList.add('slide')
+
+		const imagen = document.querySelector('.section1')
+    const line = document.querySelector('.line2')
+    const observer = new IntersectionObserver((event) => {
+      const { isIntersecting } = event[0]
+      if (isIntersecting) {
+        line.style.background = '#FF4D5A'
+      }else{
+        line.style.background = '#ffffff'
+      }
+
+    },{threshold: '0.7'})
+    observer.observe(imagen)
 		
 	}, [])
 

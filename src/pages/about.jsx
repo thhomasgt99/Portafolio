@@ -9,6 +9,7 @@ const About = () => {
 			regreso.style.display = 'none'
 		}
 	}, [])
+
 	return (
 		<React.Fragment>
 			<div className='about'>

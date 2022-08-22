@@ -5,14 +5,23 @@ import Section2 from './section2'
 import Section3 from './section3'
 
 const Start = () => {
-  
-  React.useEffect(()=>{
-    const node = document.querySelector('.container-section0')
-    const line = document.querySelector('.line1')
 
+  React.useEffect(() => {
+    const node = document.querySelector('.container-section0')
     node.classList.add('slide')
-    line.style.background = '#FF4D5A'
-  },[])
+    const imagen = document.querySelector('.section-home')
+    const line = document.querySelector('.line1')
+    const observer = new IntersectionObserver((event) => {
+      const { isIntersecting } = event[0]
+      if (isIntersecting) {
+        line.style.background = '#FF4D5A'
+      }else{
+        line.style.background = '#ffffff'
+      }
+
+    },{threshold: '0.7'})
+    observer.observe(imagen)
+  }, [])
 
   return (
     <React.Fragment>
