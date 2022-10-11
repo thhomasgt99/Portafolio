@@ -6,6 +6,7 @@ import task from './images/task.jpg'
 import pokedex from './images/pokedex.jpg'
 import weather from './images/weather-app.jpg'
 import shoes from './images/shoes-merch.jpg'
+import TasksAppReact from './images/task-react.jpg'
 // const batata = 'https://thhomasgt99.github.io/assets/img/batata.png'
 // const gafas  = 'https://thhomasgt99.github.io/assets/img/batata.png'
 
@@ -35,6 +36,22 @@ const api =[
 		github:'https://github.com/thhomasgt99/pagina-gafass'
 	},
 	{
+		title: 'Weather-app✔',
+		description: 'Weather-app es una sigle-page-aplication que mustra el clima de tu ubicación.',
+		img: weather,
+		url: 'https://thhomasgt99.github.io/weather-app/',
+		id:6,
+		github:'https://github.com/thhomasgt99/weather-app'
+	},
+	{
+		title: 'Tasks-app-react✔',
+		description: 'Tasks-app-react es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia datos depende de Localstorage y esta construida con react.',
+		img: TasksAppReact,
+		url: 'https://thhomasgt99.github.io/react-tasks-app/',
+		id:4,
+		github:'https://github.com/thhomasgt99/react-tasks-app'
+	},
+	{
 		title: 'Tasks-app✔',
 		description: 'Tasks-app es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia datos depende de Localstorage.',
 		img: task,
@@ -50,14 +67,14 @@ const api =[
 		id:5,
 		github:'https://github.com/thhomasgt99/Pokedex'
 	},
-	{
-		title: 'Weather-app✔',
-		description: 'Weather-app es una sigle-page-aplication que mustra el clima de tu ubicación.',
-		img: weather,
-		url: 'https://thhomasgt99.github.io/weather-app/',
-		id:6,
-		github:'https://github.com/thhomasgt99/weather-app'
-	},
+	// {
+	// 	title: 'Movies',
+	// 	description: 'Clon de la popular web de peliculas Cuevana',
+	// 	img: pokedex,
+	// 	url: 'https://movies-bfeec.web.app/',
+	// 	id:8,
+	// 	github:'https://github.com/thhomasgt99/movies'
+	// },
 	{
 		title: '100tifico✔',
 		description: '100tifico es una single-page-aplication que renderiza desde una API los personajes de la popular serie Rick and Morty, además de mostrarnos algo de información relevante.',
