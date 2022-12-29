@@ -21,7 +21,7 @@ const api =[
 	},
 	{
 		title: 'BatataBit✔',
-		description: 'Batatabit es un layout secillo, atractivo y con un diseño responsivo.',
+		description: 'Batatabit es un layout sencillo, atractivo y con un diseño responsivo.',
 		img: batata,
 		url: 'https://thhomasgt99.github.io/Batatabit/index.html',
 		id:2,
@@ -37,7 +37,7 @@ const api =[
 	},
 	{
 		title: 'Weather-app✔',
-		description: 'Weather-app es una sigle-page-aplication que mustra el clima de tu ubicación.',
+		description: 'Weather-app es una single-page-aplication que muestra el clima de tu ubicación.',
 		img: weather,
 		url: 'https://thhomasgt99.github.io/weather-app/',
 		id:6,
@@ -45,7 +45,7 @@ const api =[
 	},
 	{
 		title: 'Tasks-app-react✔',
-		description: 'Tasks-app-react es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia datos depende de Localstorage y esta construida con react.',
+		description: 'Tasks-app-react es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia de datos depende de Localstorage, y está construida con react.',
 		img: TasksAppReact,
 		url: 'https://thhomasgt99.github.io/react-tasks-app/',
 		id:4,
@@ -53,7 +53,7 @@ const api =[
 	},
 	{
 		title: 'Tasks-app✔',
-		description: 'Tasks-app es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia datos depende de Localstorage.',
+		description: 'Tasks-app es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia de datos depende de Localstorage.',
 		img: task,
 		url: 'https://thhomasgt99.github.io/Tasks-app/',
 		id:4,

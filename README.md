@@ -22,4 +22,4 @@
 - sass-loader        		 	-> Loader de sass para que trate webpack estos formatos
 - axios                   -> Para manejar mejor las llamadas apis
 - copy-webpack-plugin     -> Nos ayudará a copiar los archivos de la carpeta /public a la carpeta de nuestro proyecto compilado
-##### Nota: ejecutar cada vez que vaya a mandar commits a firebase antes -> npm run build,  pq no lo integre a los yml y recordar que antes del build la regla publicPath: '/' deve estar descomentada. Una vez se haya hecho esto mandar los cambios al repositorio
+##### Nota: ejecutar cada vez que vaya a mandar commits a firebase antes -> npm run build,  pq no lo integre a los yml y recordar que antes del build la regla publicPath: '/' debe estar descomentada. Una vez se haya hecho esto mandar los cambios al repositorio.
