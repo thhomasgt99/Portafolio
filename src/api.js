@@ -15,7 +15,7 @@ const api =[
 		title: 'PlatziConf Merch✔',
 		description: 'Platzi-Conf-Merch es una e-commerce donde puedes vender tus productos. Contiene integración de pagos con Paypal y un diseño responsivo.',
 		img:shoes,
-		url: 'https://thomb.xyz/',
+		url: 'https://platzi-store-merch-dd93f.firebaseapp.com/',
 		id:1,
 		github:'https://github.com/thhomasgt99/platzi-Conf-Merch'
 	},
@@ -29,7 +29,7 @@ const api =[
 	},
 	{
 		title: 'Glasses Shop✔',
-		description: 'Glasses Shop es un layout para una tienda virtual. Contiene un slider horizontal hecho con JavaScript vanilla para presentar algunas imágenes de los productos.',
+		description: 'Glasses Shop es un layout para una tienda virtual. Contiene un slider horizontal heczho con JavaScript vanilla para presentar algunas imágenes de los productos.',
 		img: gafas,
 		url: 'https://thhomasgt99.github.io/pagina-gafass/',
 		id:3,
