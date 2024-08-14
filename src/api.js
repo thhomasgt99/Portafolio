@@ -6,17 +6,26 @@ import task from './images/task.jpg'
 import pokedex from './images/pokedex.jpg'
 import weather from './images/weather-app.jpg'
 import shoes from './images/shoes-merch.jpg'
+import store from './images/store.jpg'
 import TasksAppReact from './images/task-react.jpg'
 // const batata = 'https://thhomasgt99.github.io/assets/img/batata.png'
 // const gafas  = 'https://thhomasgt99.github.io/assets/img/batata.png'
 
 const api =[
 	{
+		title: 'Store✔',
+		description: 'Store es una tienda en línea moderna y funcional, diseñada y desarrollada utilizando PHP orientado a objetos, lo que garantiza un código modular y fácil de mantener.',
+		img:store,
+		url: 'https://tecnotienda.cloud/',
+		id:1,
+		github:'https://github.com/thhomasgt99/store'
+	},
+	{
 		title: 'PlatziConf Merch✔',
 		description: 'Platzi-Conf-Merch es una e-commerce donde puedes vender tus productos. Contiene integración de pagos con Paypal y un diseño responsivo.',
 		img:shoes,
 		url: 'https://platzi-store-merch-dd93f.firebaseapp.com/',
-		id:1,
+		id:2,
 		github:'https://github.com/thhomasgt99/platzi-Conf-Merch'
 	},
 	{
@@ -24,7 +33,7 @@ const api =[
 		description: 'Batatabit es un layout sencillo, atractivo y con un diseño responsivo.',
 		img: batata,
 		url: 'https://thhomasgt99.github.io/Batatabit/index.html',
-		id:2,
+		id:3,
 		github:'https://github.com/thhomasgt99/Batatabit/tree/master'
 	},
 	{
@@ -32,7 +41,7 @@ const api =[
 		description: 'Glasses Shop es un layout para una tienda virtual. Contiene un slider horizontal heczho con JavaScript vanilla para presentar algunas imágenes de los productos.',
 		img: gafas,
 		url: 'https://thhomasgt99.github.io/pagina-gafass/',
-		id:3,
+		id:4,
 		github:'https://github.com/thhomasgt99/pagina-gafass'
 	},
 	{
@@ -40,7 +49,7 @@ const api =[
 		description: 'Weather-app es una single-page-aplication que muestra el clima de tu ubicación.',
 		img: weather,
 		url: 'https://thhomasgt99.github.io/weather-app/',
-		id:6,
+		id:5,
 		github:'https://github.com/thhomasgt99/weather-app'
 	},
 	{
@@ -48,7 +57,7 @@ const api =[
 		description: 'Tasks-app-react es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia de datos depende de Localstorage, y está construida con react.',
 		img: TasksAppReact,
 		url: 'https://thhomasgt99.github.io/react-tasks-app/',
-		id:4,
+		id:6,
 		github:'https://github.com/thhomasgt99/react-tasks-app'
 	},
 	{
@@ -56,7 +65,7 @@ const api =[
 		description: 'Tasks-app es un aplicación para crear y administrar tus tareas diarias de una forma fácil y rápida. La persistencia de datos depende de Localstorage.',
 		img: task,
 		url: 'https://thhomasgt99.github.io/Tasks-app/',
-		id:4,
+		id:7,
 		github:'https://github.com/thhomasgt99/Tasks-app'
 	},
 	{
@@ -64,7 +73,7 @@ const api =[
 		description: 'Pokedex es una single-page-aplication que consume una API de pokemones para presentarlos junto con los atributos y características de cada personaje.',
 		img: pokedex,
 		url: 'https://thhomasgt99.github.io/Pokedex/',
-		id:5,
+		id:8,
 		github:'https://github.com/thhomasgt99/Pokedex'
 	},
 	// {
@@ -80,7 +89,7 @@ const api =[
 		description: '100tifico es una single-page-aplication que renderiza desde una API los personajes de la popular serie Rick and Morty, además de mostrarnos algo de información relevante.',
 		img: cienifico,
 		url: 'https://thhomasgt99.github.io/100tifico/',
-		id:7,
+		id:9,
 		github:'https://github.com/thhomasgt99/100tifico/tree/master'
 	},
 	// {
