@@ -31,13 +31,7 @@ const About = () => {
 							<hr />
 						</div>
 						<div className='descripcion'>
-							¡Hola! Mi nombre es Thomas y disfruto creando cosas que viven en Internet.
-							Soy un desarrollador de Colombia interesado principalmente en tecnologías
-							web, especialmente en desarrollo frontend.
-							Mi curiosidad me permite aprender rápidamente nuevas herramientas y tecnologías cuando es necesario.
-							Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias
-							de usuario intuitivas y dinámicas.
-							Aficionado a la ilustración y el modelado 3D.
+						¡Hola! Mi nombre es Thomas y disfruto creando soluciones digitales para la web. Soy un desarrollador full stack de Colombia con experiencia en frontend y backend. Me apasiona construir aplicaciones dinámicas, intuitivas y eficientes, optimizando tanto la experiencia del usuario como el rendimiento del sistema. Me adapto rápidamente a nuevas tecnologías y disfruto resolver desafíos complejos con código limpio y escalable. Además, me interesa la ilustración y el modelado 3D.
 						</div>
 					</div>
 					<h4>
