@@ -1,6 +1,7 @@
 //por una extraña razon en jsx no se puede traer images de local con solo la ruta hay que importar  por eso estas importaciones
 import batata from './images/batata.jpg' 
 import gafas from './images/gafas.jpg'
+import sava from './images/sava.jpg'
 import cienifico from './images/100tifico.jpg'
 import task from './images/task.jpg'
 import pokedex from './images/pokedex.jpg'
@@ -15,18 +16,17 @@ import biocunboya from './images/biocunboya.png'
 
 const api =[
 	{
-		title: 'Site Builder✔',
-		description: 'Site Builder te permite crear sitios web estáticos de forma rápida y sencilla, ideal para quienes buscan una solución eficiente sin complicaciones. Con una interfaz intuitiva y fácil de usar, podrás personalizar cada detalle de tu sitio, desde los colores y tipografías hasta la disposición del contenido.',
-		img:builder,
-		url: 'http://builder.wuaze.com/',
+		title: 'Sava Advocar✔',
+		description: 'Sava Advocar es un sitio web para una empresa de servicios legales. El diseño es moderno y profesional, con un enfoque en la usabilidad y la accesibilidad.',
+		img:sava,
+		url: 'https://sava.com.co/',
 		id:1,
-		github:'https://github.com/thhomasgt99/builder'
 	},
 	{
 		title: 'Store✔',
 		description: 'Store es una tienda en línea moderna y funcional, diseñada y desarrollada utilizando PHP orientado a objetos, lo que garantiza un código modular y fácil de mantener.',
 		img:store,
-		url: 'http://tiendavirtual.lovestoblog.com/',
+		url: 'https://tibiritaopina.blog',
 		id:2,
 		github:'https://github.com/thhomasgt99/store'
 	},
